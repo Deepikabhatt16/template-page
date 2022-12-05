@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+
+width: 100%;
+}
+
+@media (max-width:500px)
+ { 
+    
+    
+    .col-md-4{
+       justify-content: center;
+        padding: 16px;
+    }
+   .col{display: flex;
+    justify-content: center;
+    flex-direction: column;
+  align-self: center;
+   }
+   
+   
+    .card-shadow
+    
+{        display: flex;
+justify-content: center;
+    flex-direction:row;
+        background-color:rgb(213, 146, 163);
+    }
+    
+    .btn{
+        width: 45px;
+        height: 54px;
+    }
+    .heading{
+        text-align: center;
+       font-size:30px;
+           font-weight: 300;
+       }
+   
+}
+.container-1
+{margin-top: 5%;
+width: 100%;
+border: 3px  solid rgb(182, 122, 31);
+border-radius: 15px;
+height: 100%;
+}
+.container-2
+{
+    border: 3px solid rgb(171, 130, 167);
+border-radius: 15px;
+    margin-top: 2%;
+
+    width: 100%;
+    height: 100%;
+}
+.container-3
+{
+    margin-top: 2%;
+    border: 3px solid rgb(138, 237, 105);
+    border-radius: 15px;
+    width: 100%;
+height: 100%;
+ 
+
+}
+.container-4
+{
+    margin-top: 2%;
+    border: 3px solid rgb(245, 70, 201);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+.col-md-4
+{
+       align-items: center;
+
+
+}
+.para
+{text-transform: capitalize;
+    text-align: right;
+    color: darkcyan;
+    font-style: italic;
+    font:large;
+    
+}
+
+.head
+{
+    text-decoration:underline;
+    color: rgb(27, 16, 18);
+    font-style: italic;
+float: left;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:xx-large;
+    font-weight: 900;
+}
+
+.col
+{
+display: flex;
+flex-direction:row;
+border-radius: 56%;
+    margin:2%;
+}
+.row{
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+   text-align: center;
+   
+   
+}
+
+
+a.btn-primary:hover
+    {
+        background-color: rgb(7, 85, 131);
+        transition: 0.5s;
+        width: 80%;
+        height: 90%;
+    }
+    a.btn-success:hover
+    {width: 80%;
+        height: 90%;
+        background-color: rgb(8, 248, 84);
+        transition: 1s;
+    }
+
+.btn{
+    width: 70%;
+    height: 45%;
+    margin: 2%;
+}
+.heading{
+ font-weight: bolder;
+ text-shadow: 1px 1px 2px rgb(127, 9, 9);
+font-style: italic;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:90px;
+    font-weight: 900;
+}
+
+
